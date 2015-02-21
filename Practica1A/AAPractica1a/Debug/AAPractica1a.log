@@ -1,4 +1,4 @@
-﻿Compilación iniciada a las 18/02/2015 18:16:25.
+﻿Compilación iniciada a las 21/02/2015 1:05:04.
      1>Proyecto "D:\Master\Animacion Avanzada (AA)\Prac1a\Practica1A\AAPractica1a\AAPractica1a.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Master\Animacion Avanzada (AA)\Prac1a\Coin\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D COIN_DLL /D SOWIN_DLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Scene.cpp
@@ -15,4 +15,4 @@
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:08.56
+Tiempo transcurrido 00:00:04.71
