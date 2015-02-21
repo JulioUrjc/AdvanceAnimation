@@ -219,7 +219,7 @@ void EulerImp(float k, float m, float d, float l, float dt,float p1, float v1, f
 	if (collision && (p2 < 0.0f)) fuerza-= kc*p2;
 
    //Configuramos el sistema
-		float m_impl = (m+ dt*d - dt*dt*muelle12.dF2dp2());
+		float m_impl = m+ dt*d - dt*dt*(muelle12.dF2dp2()- ((collision && p2 < 0.0f) ? kc : 0.0f));
 		float b = (m+dt*d)*v2 + dt*fuerza;
    //Calculamos velocidad
 		v2 = b / m_impl;
